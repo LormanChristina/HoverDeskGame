@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Hover Desk</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Hover Desk</h1>
+      <a href="#" id="start">Start</a>
+    </div>
+
+    <div class="screen">
+      <h1>Choose the time</h1>
+      <ul id="time-list">
+        <li>
+          <button class="time-btn" data-time="10">
+            10 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="20">
+            20 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="30">
+            30 sec
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <h3>Time <span id="time">00:00</span></h3>
+      <div class="board" id="board"></div>
+    </div>
+  </body>
+</html>
